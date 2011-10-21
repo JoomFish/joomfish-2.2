@@ -1,0 +1,39 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 23
+/svn/joomfish/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/joomfish/!svn/ver/1597/development/trunk/2.2.x/admin
+END
+version.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/joomfish/!svn/ver/1593/development/trunk/2.2.x/admin/version.php
+END
+joomfish.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/joomfish.php
+END
+controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/controller.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/joomfish/!svn/ver/1563/development/trunk/2.2.x/admin/index.html
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/joomfish/!svn/ver/1563/development/trunk/2.2.x/admin/config.xml
+END

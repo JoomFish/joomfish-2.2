@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5.0" type="plugin" group="content">
+	<name>Joomfish Alternative Language</name>
+	<author>Joom!Fish Project</author>
+	<creationDate>2011-05-07</creationDate>
+	<copyright>Copyright (C) 2003 - 2011, Think Network GmbH, Munich. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joomfish.net</authorEmail>
+	<authorUrl>www.joomfish.net</authorUrl>
+	<version>2.2.1</version>
+	<description>Displays list of links to content in other languages.</description>
+	<files>
+		<filename plugin="jfalternative">jfalternative.php</filename>
+	</files>
+	<languages folder="">
+		<language tag="en-GB">en-GB.plg_content_jfalternative.ini</language>
+   	</languages>	
+
+	<params>
+		<param name="falt_showAS" type="list" default="flags" label="How to display available translations" description="Should alternative translations be shown as a list of flags or language names?">
+			<option value="text">As Text</option>
+			<option value="flags">As Flags</option>
+		</param>
+	</params>
+</install>

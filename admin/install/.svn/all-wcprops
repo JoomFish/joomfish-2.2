@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/joomfish/!svn/ver/1584/development/trunk/2.2.x/admin/install
+END
+install.mysql.utf8.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/joomfish/!svn/ver/1563/development/trunk/2.2.x/admin/install/install.mysql.utf8.sql
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/joomfish/!svn/ver/1563/development/trunk/2.2.x/admin/install/index.html
+END
+install.mysql.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/joomfish/!svn/ver/1563/development/trunk/2.2.x/admin/install/install.mysql.sql
+END
+upgrade.mysql.utf8.sql
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/joomfish/!svn/ver/1584/development/trunk/2.2.x/admin/install/upgrade.mysql.utf8.sql
+END

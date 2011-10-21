@@ -1,0 +1,18 @@
+# $Id: version.php 1504 2010-08-18 19:33:58Z akede $
+# author Joom!Fish Project
+# copyright (C) 2003 - 2011 Think Network GmbH, Munich. All rights reserved.
+# license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+
+# Note : All ini files need to be saved as UTF-8
+
+COM_JOOMFISH=Joom!Fish
+COM_JOOMFISH.CONTROL PANEL=Control Panel
+COM_JOOMFISH.TRANSLATION=Translation
+COM_JOOMFISH.ORPHAN TRANSLATIONS=Orphan Translations
+COM_JOOMFISH.MANAGE TRANSLATIONS=Manage Translations
+COM_JOOMFISH.LANGUAGES=Content Languages
+COM_JOOMFISH.CONTENT ELEMENTS=Content Elements
+COM_JOOMFISH.PLUGINS=Plugins
+COM_JOOMFISH.HELP=Help & Tips
+COM_JOOMFISH.ABOUT=About
+COM_JOOMFISH.STATISTICS=Statistics

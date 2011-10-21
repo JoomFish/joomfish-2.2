@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl
+END
+preview.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/preview.php
+END
+orphandetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/orphandetail.php
+END
+overview.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/overview.php
+END
+edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/edit.php
+END
+orphans.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/orphans.php
+END
+default_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/default_list.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/joomfish/!svn/ver/1563/development/trunk/2.2.x/admin/views/translate/tmpl/index.html
+END
+default_noselection.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/default_noselection.php
+END
+originalvalue.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/originalvalue.php
+END
+default.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/default.php
+END
+edit_message.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/joomfish/!svn/ver/1592/development/trunk/2.2.x/admin/views/translate/tmpl/edit_message.php
+END

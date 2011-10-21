@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - Joomfish Sections</name>
+	<author>Joom!Fish Project</author>
+	<creationDate>2011-05-07</creationDate>
+	<copyright>Copyright (C) 2003 - 2011, Think Network GmbH, Munich. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@joomfish.net</authorEmail>
+	<authorUrl>http://www.joomfish.net</authorUrl>
+	<version>2.2.1</version>
+	<description>Allows Searching of Translations of Content Section information</description>
+	<files>
+		<filename plugin="jfsections">jfsections.php</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+		<param name="active_language_only" type="radio" default="0" label="Active language only" description="Search only within active language?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

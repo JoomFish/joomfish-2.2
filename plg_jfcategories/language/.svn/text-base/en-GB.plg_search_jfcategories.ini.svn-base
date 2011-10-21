@@ -1,0 +1,11 @@
+# $Id$
+# Joom!Fish Project
+# Copyright (C) 2003 - 2011 Think Network GmbH, Munich. All rights reserved.
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+ALLOWS SEARCHING OF TRANSLATIONS OF CATEGORIES INFORMATION=Allows Searching of translations of Categories information
+SEARCH LIMIT=Search Limit
+ACTIVE LANGUAGE ONLY=Active language only
+NUMBER OF SEARCH ITEMS TO RETURN=Number of search items to return
+SEARCH ONLY WITHIN ACTIVE LANGUAGE?=Search only within active language?

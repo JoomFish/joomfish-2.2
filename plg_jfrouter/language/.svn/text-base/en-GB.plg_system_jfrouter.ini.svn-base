@@ -1,0 +1,31 @@
+# $Id$
+# Joom!Fish Project
+# Copyright (C) 2003 - 2011 Think Network GmbH, Munich. All rights reserved.
+# License http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL, see LICENSE.php
+# Note : All ini files need to be saved as UTF-8 - No BOM
+
+# New in 2.0 Stable
+DETERMINE LANGUAGE SELECTION FOR NEW VISITORS (ONLY ENABLE LANGUAGE DETERMINATION IS 'YES')=Determine language selection for new visitors (only Enable Language determination is 'Yes')
+FOR NEW USERS THE REDIRECTION TO THE CORRECT LANGUAGE IS DONE BY AUTOMATIC INTEGRATION OR AN OFFICIAL 302 REDIRECT TO A DIFFERENT URL SUCH AS WWW.YOURDOMAIN.COM/EN=For new users the redirection to the correct language is done by automatic integration or an official 302 redirect to a different URL such as www.yourdomain.com/en
+IF AN UNKOWN USER COMES TO YOUR SITE - TRY TO DETERMINATE THE LANGUAGE BASED ON THE BROWSER SETTINGS.=If an unkown user comes to your site - try to determinate the language based on the browser settings.
+SEF PREFIX DESCRIPTION=What prefix the router should use, if SEF is enabled?
+SEF DOMAIN DESCRIPTION=What domain should be used, if the option is enabled? This includes sub-domains or any top level domain you like.
+SWITCH OFF THE COOKIE ONLY IF YOU HAVE A DIFFERENT SOLUTION TO DEFINE THE ONCE SELECTED LANGUAGE, E.G. VIA AN URL.=Switch off the cookie only if you have a different solution to define the once selected language, e.g. via an URL.
+TBD=To be detailed.
+USE JF ROUTER IF AVAILABLE - THIS IS A PROJECT SPONSORS ONLY ADDON=Use JF Router Pro if available - this is a project sponsors only addon.
+
+# RC1 release on 27 August 2008
+WHEN ACTIVATED THIS BOT PROVIDES LANGUAGE DETERMINATION AND BASIC ROUTING. MUST BE ENABLED UNLESS YOU ARE USING A SEF PLUGIN THAT PERFORMS THE SAME TASKS.=When activated this plugin provides language determination and basic routing. Must be enabled unless you are using a SEF plugin that performs the same tasks.
+USE JF ROUTER IF AVAILABLE=Use JF Router if available
+ENABLE LANGUAGE DETERMINATION=Enable Language determination
+LANGUAGE SELECTION FOR NEW VISITORS?=Language selection for new visitors?
+BROWSER SETTINGS=Browser settings
+SITE DEFAULT LANGUAGE=Site default language
+ORDERING OF LANGUAGES IN JOOMFISH COMPONENT=Ordering of languages in Joom!Fish component
+USE 302 REDIRECT=Use 302 redirect
+SAVE USER LANGUAGE IN A COOKIE=Save user language in a cookie
+USE SEF PREFIX OR DOMAINS?=Use SEF prefix or domains?
+SEF PREFIX=SEF Prefix
+SUB-DOMAIN=Sub-Domain
+PREFIX=Prefix
+SEF SUBDOMAIN=Sef subdomain
