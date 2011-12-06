@@ -133,29 +133,38 @@ else {
 	</script>
 <?php } ?>
 
-	<script language="javascript" type="text/javascript">
+<script language="javascript" type="text/javascript">
+	function translateText(result) {
+	       //if (!result.error) {
+				translationWriteValue(this.value, result.data.translations[0].translatedText);
+				//}
+				//else {
+				//	alert(result.error.message)
+				//}
+	      }
+	    
 	function googleTranslate(value) {
 		<?php
-		JHTML::script("jsapi","http://www.google.com/");
-		$document = JFactory::getDocument();
-		$document->addScriptDeclaration("google.load('language', '1');window.addEvent('domready',function (){google.language.getBranding('googlebranding');})");
 		$jfm = JoomFishManager::getInstance();
 		$languages = $jfm->getLanguagesIndexedById();
 		$targetlang = $languages[$select_language_id];
 		$code = substr($targetlang->code,0,2);
 		$defaultLang = substr($this->get('DefaultLanguage'),0,2);
 		?>
-		var srcEl = document.getElementById("original_value_"+value);
-		var html = srcEl.innerHTML;
-		google.language.translate(srcEl.innerHTML, "<?php echo $defaultLang;?>", "<?php echo $code;?>", function(result) {
-			if (!result.error) {
-				translationWriteValue(value, result.translation);
-			}
-			else {
-				alert(result.error.message)
-			}
-		});
+
+		this.value = value;
+		var newScript = document.createElement('script');
+		newScript.type = 'text/javascript';
+	    var sourceText = escape(document.getElementById('original_value_'+value).innerHTML);
+	    // WARNING: be aware that YOUR-API-KEY inside html is viewable by all your users.
+	    // Restrict your key to designated domains or use a proxy to hide your key
+	    // to avoid misuage by other party.
+	    var source = 'https://www.googleapis.com/language/translate/v2?key=<?php echo $this->googleApikey;?>&source=<?php echo $defaultLang;?>&target=<?php echo $code;?>&callback=translateText&q=' + sourceText;
+	    newScript.src = source;
+
+	    document.getElementsByTagName('head')[0].appendChild(newScript);
 	}
+	
 	function confirmChangeLanguage(fromLang, fromIndex){
 		selections = document.getElementsByName("language_id")[0].options;
 		selection = document.getElementsByName("language_id")[0].selectedIndex;
