@@ -44,8 +44,8 @@ if($mainframe->isAdmin()) {
 jimport('joomla.filesystem.file');
 // Joom!Fish router only gets activated if essential files are missing
 //if ( !file_exists( JPATH_PLUGINS .DS. 'system' .DS. 'jfdatabase' .DS. 'jfdatabase.class.php' )) {
-if ( !JFile::exists( dirname(__FILE__) .DS. 'jfrouter' .DS. 'contact.php' )) {
-	JError::raiseNotice('no_jf_plugin', JText::_('Joom!Fish router plugin not installed correctly. Plugin not executed'));
+if ( !JFile::exists( JPATH_PLUGINS .DS. 'system' .DS. 'jfrouter' .DS. 'contact.php' )) {
+	JError::raiseNotice('no_jf_plugin', JText::_('Joom!Fish router plugin not installed correctly. Plugin not executed') .' (jfr-contact)');
 	return;
 }
 if(JFile::exists(JPATH_SITE .DS. 'components' .DS. 'com_joomfish' .DS. 'helpers' .DS. 'defines.php')) {
@@ -54,7 +54,7 @@ if(JFile::exists(JPATH_SITE .DS. 'components' .DS. 'com_joomfish' .DS. 'helpers'
 	JLoader::register('JoomFishVersion', JOOMFISH_ADMINPATH .DS. 'version.php' );
 	JLoader::register('JoomFish', JOOMFISH_PATH .DS. 'helpers' .DS. 'joomfish.class.php' );	
 } else {
-	JError::raiseNotice('no_jf_extension', JText::_('Joom!Fish extension not installed correctly. Plugin not executed'));
+	JError::raiseNotice('no_jf_extension', JText::_('Joom!Fish extension not installed correctly. Plugin not executed') .' (jfr-defines)');
 	return;
 }
 /**
