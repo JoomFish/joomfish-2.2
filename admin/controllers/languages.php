@@ -125,7 +125,7 @@ class LanguagesController extends JController  {
 		if ($model->store($cid, $post)) {
 			$msg = JText::_( 'Languages saved' );
 		} else {
-			$msg = JText::_( 'Error Saving Languages' );
+			$msg = JText::_( 'Error Saving Languages' ) .'<br />'.$model->getError();
 		}
 
 		// Check the table in so it can be edited.... we are done with it anyway

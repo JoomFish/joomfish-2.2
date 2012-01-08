@@ -463,7 +463,14 @@ class TableJFLanguage extends JTable  {
 		}
 
 		$retValue = $this->jLanguageTable->store($updateNulls);
-		$retValue = $retValue & $this->jfLanguageExt->store($updateNulls);
+		if($retValue) {
+			// positive stored reference language, storing extended information
+			if(!$retValue = $retValue & $this->jfLanguageExt->store($updateNulls)) {
+				$this->setError($this->jfLanguageExt->getError());
+			}
+		} else {
+			$this->setError($this->jLanguageTable->getError());
+		}
 		
 		// again special treatment to ensure the lang_id match each other!
 		if($this->lang_id == -1 && $this->jLanguageTable->lang_id != $this->jfLanguageExt->lang_id) {
