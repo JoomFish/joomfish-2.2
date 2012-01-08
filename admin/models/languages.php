@@ -235,7 +235,7 @@ class LanguagesModelLanguages extends JFModel
 			$jfLanguage = $this->getTable('JFLanguage');
 			$jfLanguage->bind($language);
 
-			$this->_languages[($jfLanguage->lang_code != '') ? $jfLanguage->lang_code : $jfLanguage->lang_id] = $jfLanguage;
+			$this->_languages[$jfLanguage->lang_id] = $jfLanguage;
 		}
 	}
 		
