@@ -26,7 +26,7 @@
  * The "GNU General Public License" (GPL) is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * -----------------------------------------------------------------------------
- * $Id: CHANGELOG.php 1597 2012-01-08 10:03:16Z akede $
+ * $Id: CHANGELOG.php 1597 2012-01-18 10:03:16Z akede $
  *
 */
 
@@ -65,33 +65,33 @@ Legend:
 
 ==== 2011 Joom!Fish 2.2.3 Stable release =====
 
-2012-01-08 Alex Kempkens
+2012-01-18 Alex Kempkens
  # 342: 2.2 not translating meta-tags - http://www.joomfish.net/forum/viewtopic.php?f=47&t=9186&p=34147#p34147
 
-2012-01-08 Alex Kempkens
+2012-01-18 Alex Kempkens
  # ensured that the news module is not shown if the RSS feed is not available
 
-2012-01-08 Alex Kempkens
+2012-01-18 Alex Kempkens
  ! removed the necessarity for the view. The view is removed completely from the installation and all other references
 
-2012-01-08 Alex Kempkens
+2012-01-18 Alex Kempkens
   # [#24270] JF fails to change current language on visitor first visit
   # Fixed an issue with JFile not being included in the help dialogs
   + http://joomfish.uservoice.com/forums/7879-joom-fish-core/suggestions/461511-translate-plugins-parameters
   # Updated version file
  
-2012-01-08 Geraint Edwards
+2012-01-18 Geraint Edwards
  # Ensure insert/select type subquery doesn't trigger setreftables
  # ensure profile data is not processed if it isn't an array
  # ensure content items marked as non-default language don't trigger the creation of inappropriate translations in the frontend when updating content
 
-2012-01-08 Alex Kempkens
+2012-01-18 Alex Kempkens
  # fixing issue with wrong media path in flag image determination
 
-2012-01-08 Geraint Edwards
+2012-01-18 Geraint Edwards
  # Reinstate fallback language support
  
-2012-01-08 Geraint Edwards
+2012-01-18 Geraint Edwards
  # Missing clone when creating introtext translation out of fulltext
  # Fix language switching module when using subdomain
  # Allow for non-numeric primary key values in translation

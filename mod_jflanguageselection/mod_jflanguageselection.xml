@@ -2,7 +2,7 @@
 <!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/module-install.dtd">
 <install type="module" version="1.5.0" client="site" method="upgrade">
 	<name>JoomFish-Language Selection</name>
-	<creationDate>2012-01-08</creationDate>
+	<creationDate>2012-01-18</creationDate>
 	<author>Joom!Fish Project</author>
 	<authorEmail>support@joomfish.net</authorEmail>
 	<authorUrl>http://www.joomfish.net</authorUrl>
