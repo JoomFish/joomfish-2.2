@@ -1,7 +1,7 @@
 <?
 /**
  * Joom!Fish - Multi Lingual extention and translation manager for Joomla!
- * Copyright (C) 2003 - 2012, Think Network GmbH, Munich
+ * Copyright (C) 2003 - 2011, Think Network GmbH, Munich
  *
  * All rights reserved.  The Joom!Fish project is a set of extentions for
  * the content management system Joomla!. It enables Joomla!
@@ -26,7 +26,7 @@
  * The "GNU General Public License" (GPL) is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * -----------------------------------------------------------------------------
- * $Id: CHANGELOG.php 1597 2012-01-18 10:03:16Z akede $
+ * $Id: CHANGELOG.php 1597 2011-06-12 10:03:16Z akede $
  *
 */
 
@@ -39,7 +39,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 This application is opensource software released under a variant of the GPL.
 Please see source code and the LICENSE file for more details.
 
-Copyright (C) 2003 - 2012, Think Network GmbH, Munich
+Copyright (C) 2003 - 2011, Think Network GmbH, Munich
 - All Rights Reserved.
 
 
@@ -62,36 +62,166 @@ Legend:
 ! -> Note
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==== 2012-01-18 Joom!Fish 2.2.3 Stable release =====
 
-==== 2011 Joom!Fish 2.2.3 Stable release =====
+commit d609344e58d7a2fb8c474aceb3cb1250ddf921f0
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Wed Jan 18 08:27:17 2012 +0100
 
-2012-01-18 Alex Kempkens
+    # correcting creating date for release
+
+commit 7ceaecbe722e8a2800e50bb68cf61ad5da042ddc
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Wed Jan 18 08:20:27 2012 +0100
+
+    # adding a text for google translation information
+
+commit ecfa32f6a17ce16fbb86dabad528b14fe6f4b257
+Merge: d22e7c8 1173e29
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Wed Jan 18 07:45:54 2012 +0100
+
+    Merge remote-tracking branch 'origin/master'
+
+commit d22e7c83bb0b8fd829de0f8e22a112e22703a044
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Wed Jan 18 07:36:53 2012 +0100
+
+    # Changing icon for translation and adding additional help information
+
+commit 1173e29a70de6894b87c9017681f4c2a0335e062
+Merge: 1a4f05f e9da1eb
+Author: Alex Kempkens <alex.kempkens@gmail.com>
+Date:   Tue Jan 17 22:03:51 2012 -0800
+
+    Merge pull request #2 from klas/master
+    
+    Issue alert when there is no google translate api key
+
+commit e9da1eb86c0dde3f45e47df68461e634a26e0107
+Author: klas <klas.berlic@gmail.com>
+Date:   Tue Jan 17 19:47:20 2012 +0100
+
+    Google API key check to prevent errors when there is no key
+
+commit c16d143feec15667a774aca4e16a5c2d49826171
+Author: klas <klas.berlic@gmail.com>
+Date:   Tue Jan 17 14:21:03 2012 +0100
+
+    merge upstream
+
+commit 1a4f05f20fafc0f3b06035b0b32109bc823f31f7
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Sun Jan 8 15:06:18 2012 +0100
+
+    # another correction of the language module to allow usage of languages
+    based on their ID and not on the lang_code which might be the same.
+
+commit 1bbc6d1a396163ee0cdd906ebc75629c1da525fc
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Sun Jan 8 13:36:11 2012 +0100
+
+    # Fixing an issue with managing multiple languages with empty language
+    codes
+    # Fixing issue with creating multiple languages with empty sef codes
+    (error message not shown)
+
+commit 8208aad647d40b7151d77c8fff5072792cbc4825
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Fri Jan 6 08:14:45 2012 +0100
+
+    # correcting further version numbers
+
+commit ed69736252b5b6d8e6d2405fefcb1aca5d1f971c
+Merge: 0930c01 2ab1f5b
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Fri Jan 6 08:04:30 2012 +0100
+
+    Merge remote branch 'origin/master'
+
+commit 0930c0158e8bffecfd338ae5581dd5bc4120c6b8
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Fri Jan 6 08:03:57 2012 +0100
+
+    # correnting version numbers for stable release
+
+commit 392756b61a8bbc42001b2a9feb6281560499a3dc
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Fri Jan 6 07:28:13 2012 +0100
+
+    + add manifest to ignore list
+
+commit 2ab1f5b288ddcc867bfb2b328fb706e024b88c4a
+Merge: 8af0636 7d2a2c5
+Author: Alex Kempkens <alex.kempkens@gmail.com>
+Date:   Thu Dec 15 23:23:16 2011 -0800
+
+    Merge pull request #1 from klas/master
+    
+    Google translate API V2
+
+commit 8af0636a0293690d50bc16fbbc28e921898c7905
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Tue Dec 6 22:19:29 2011 +0100
+
+    # Correcting the usage of directory path with Joomla constants
+
+commit 7d2a2c5f6da56fa905df8858062ff67d32119738
+Author: klas <klas.berlic@gmail.com>
+Date:   Sun Dec 4 01:40:38 2011 +0100
+
+    Change auto translate function to use Google translate API V2
+
+commit b9175e69b49d84fd6f95bc2e113e22ba5d9f3e60
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Tue Nov 29 11:02:59 2011 +0100
+
+    - removing all .svn directories
+
+commit 220b5c0ce11202dfcedbbd560a605a75f6bbecb2
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Tue Nov 29 09:10:55 2011 +0100
+
+    # Fixed encoding issue in help page
+    # corrected versioning information for new release
+    - removed unneeded .svn directories
+
+commit b2c4eec938a6ad07452d7df2849ed218ca0543ed
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Fri Oct 21 11:59:15 2011 -0400
+
+    Initial update of the current 2.2 code on SVN
+
+
+==== 2011 Joom!Fish 2.2.2 Stable release =====
+
+2011-06-12 Alex Kempkens
  # 342: 2.2 not translating meta-tags - http://www.joomfish.net/forum/viewtopic.php?f=47&t=9186&p=34147#p34147
 
-2012-01-18 Alex Kempkens
+2011-05-29 Alex Kempkens
  # ensured that the news module is not shown if the RSS feed is not available
 
-2012-01-18 Alex Kempkens
+2011-05-06 Alex Kempkens
  ! removed the necessarity for the view. The view is removed completely from the installation and all other references
 
-2012-01-18 Alex Kempkens
+2011-04-16 Alex Kempkens
   # [#24270] JF fails to change current language on visitor first visit
   # Fixed an issue with JFile not being included in the help dialogs
   + http://joomfish.uservoice.com/forums/7879-joom-fish-core/suggestions/461511-translate-plugins-parameters
   # Updated version file
  
-2012-01-18 Geraint Edwards
+2011-04-16 Geraint Edwards
  # Ensure insert/select type subquery doesn't trigger setreftables
  # ensure profile data is not processed if it isn't an array
  # ensure content items marked as non-default language don't trigger the creation of inappropriate translations in the frontend when updating content
 
-2012-01-18 Alex Kempkens
+2011-03-24 Alex Kempkens
  # fixing issue with wrong media path in flag image determination
 
-2012-01-18 Geraint Edwards
+2011-01-19 Geraint Edwards
  # Reinstate fallback language support
  
-2012-01-18 Geraint Edwards
+2011-01-04 Geraint Edwards
  # Missing clone when creating introtext translation out of fulltext
  # Fix language switching module when using subdomain
  # Allow for non-numeric primary key values in translation
