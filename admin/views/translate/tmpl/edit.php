@@ -135,12 +135,12 @@ else {
 
 <script language="javascript" type="text/javascript">
 	function translateText(result) {
-	       //if (!result.error) {
+	       if (!result.error) {
 				translationWriteValue(this.value, result.data.translations[0].translatedText);
-				//}
-				//else {
-				//	alert(result.error.message)
-				//}
+				}
+				else {
+					alert(result.error.message)
+				}
 	      }
 	    
 	function googleTranslate(value) {
@@ -151,7 +151,13 @@ else {
 		$code = substr($targetlang->code,0,2);
 		$defaultLang = substr($this->get('DefaultLanguage'),0,2);
 		?>
-
+		
+		var APIKey = '<?php echo $this->googleApikey;?>';
+		if (!APIKey) {
+			alert('<?php echo JText::_('GOOGLE_TRANSLATE_API_KEY');?>');
+			return;
+		}
+		
 		this.value = value;
 		var newScript = document.createElement('script');
 		newScript.type = 'text/javascript';
