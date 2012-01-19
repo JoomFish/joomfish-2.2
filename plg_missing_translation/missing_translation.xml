@@ -2,7 +2,7 @@
 <install version="1.5" type="plugin" group="joomfish">
 	<name>Joomfish - Missing Translation</name>
 	<author>Joom!Fish Project</author>
-	<creationDate>2012-01-18</creationDate>
+	<creationDate>2012-01-20</creationDate>
 	<copyright>Copyright (C) 2003 - 2012, Think Network GmbH, Munich. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@joomfish.net</authorEmail>

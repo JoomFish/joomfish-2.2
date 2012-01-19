@@ -5,7 +5,7 @@
 	<author>Joom!Fish Project</author>
 	<authorEmail>support@joomfish.net</authorEmail>
 	<authorUrl>http://www.joomfish.net</authorUrl>
-	<creationDate>2012-01-18</creationDate>
+	<creationDate>2012-01-20</creationDate>
 	<copyright>2003 - 2012, Think Network GmbH, Munich</copyright>
 	<version>2.2.3</version>
 	<description>When activated this bot provides language determination and basic routing. Must be enabled unless you are using a SEF plugin that performs the same tasks.</description>

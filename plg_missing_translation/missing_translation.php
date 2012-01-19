@@ -25,7 +25,7 @@
  * The "GNU General Public License" (GPL) is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * -----------------------------------------------------------------------------
- * $Id: missing_translation.php 1592 2012-01-18 12:51:08Z akede $
+ * $Id: missing_translation.php 1592 2012-01-20 12:51:08Z akede $
  *
 */
 

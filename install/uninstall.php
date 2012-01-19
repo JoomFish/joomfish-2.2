@@ -25,7 +25,7 @@
  * The "GNU General Public License" (GPL) is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * -----------------------------------------------------------------------------
- * @version		$Id: uninstall.php 1592 2012-01-18 12:51:08Z akede $
+ * @version		$Id: uninstall.php 1592 2012-01-20 12:51:08Z akede $
  * @package		joomfish
  * @copyright	2003 - 2012, Think Network GmbH, Munich
  * @license		GNU General Public License

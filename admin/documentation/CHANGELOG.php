@@ -26,7 +26,7 @@
  * The "GNU General Public License" (GPL) is available at
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  * -----------------------------------------------------------------------------
- * $Id: CHANGELOG.php 1597 2011-06-12 10:03:16Z akede $
+ * $Id: CHANGELOG.php 1597 2012-01-20 10:03:16Z akede $
  *
 */
 
@@ -39,7 +39,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 This application is opensource software released under a variant of the GPL.
 Please see source code and the LICENSE file for more details.
 
-Copyright (C) 2003 - 2011, Think Network GmbH, Munich
+Copyright (C) 2003 - 2012, Think Network GmbH, Munich
 - All Rights Reserved.
 
 
@@ -62,11 +62,12 @@ Legend:
 ! -> Note
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-==== 2012-01-19 Joom!Fish 2.2.3 Stable release =====
+==== 2012-01-20 Joom!Fish 2.2.3 Stable release =====
 
-Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
-Date:   Wed Jan 19 23:05:00 2012 +0100
-Fix front-end module to show languages correctly even if lang_code is used duplicate
+commit cf41005601defe3c3ce5f674d9bc844f0e26c408
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com> 2012-01-20 00:17:18
+# fixed coding style in jfrouter
+# fixed module to deal with duplicate language codes
 
 commit 8c346a3eeb3b108ca5a04a2b79d127d29a13bb3d
 Author: Geraint Edwards <github@copyn.plus.com> 2012-01-19 14:03:41
