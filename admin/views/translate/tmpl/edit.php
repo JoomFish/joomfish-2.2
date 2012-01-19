@@ -249,11 +249,9 @@ else {
 				<?php if( strtolower($field->Type)!='htmltext' ) {?>
 					<a class="toolbar" onclick="document.adminForm.refField_<?php echo $field->Name;?>.value = document.adminForm.origText_<?php echo $field->Name;?>.value;"><span class="icon-32-copy"></span><?php echo JText::_('Copy'); ?></a>
 				<?php }	else { ?>
-					<?php if($this->googleApikey) { ?>
 					<div id='googlebranding'>
 						<a class="toolbar" onclick="googleTranslate('<?php echo $field->Name;?>');" onmouseout="MM_swapImgRestore();" title="<?php echo JText::_('GOOGLE_TRANSLATE_INFORMATION');?>"><span class="icon-32-translate"></span><?php echo JText::_('TRANSLATE'); ?></a>
 					</div>
-					<?php } ?>
 					<a class="toolbar" onclick="copyToClipboard('<?php echo $field->Name;?>','copy');" onmouseout="MM_swapImgRestore();"><span class="icon-32-copy"></span><?php echo JText::_('Copy'); ?></a>
 				<?php  }?>
 			  </td>
