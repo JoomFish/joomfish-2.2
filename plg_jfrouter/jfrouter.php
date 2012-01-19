@@ -338,6 +338,10 @@ class plgSystemJFRouter extends JPlugin{
 		if ($jfLang->code != $lang->getTag()){
 			// Must not assign by reference in order to overwrite the existing reference to the static instance of the language
 			$lang = JFactory::_createLanguage();
+			$lang->setDefault($jfLang->code);
+			$lang->_metadata = array();
+			$lang->_metadata['tag'] = $jfLang->code;
+			$lang->_metadata['rtl'] = false;
 		}
 		// no need to set locale for this ISO code its done by JLanguage
 		
