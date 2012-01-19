@@ -554,10 +554,10 @@ class CPanelModelCPanel extends JModel
 						$stateRow = $translationStatus[$i];
 						$sql = "select *" .
 						"\n from #__jf_content as jfc" .
-						"\n where published=1" .
-						"\n and reference_table='" .$stateRow['catid']. "'".
-						"\n and language_id=" .$stateRow['language_id'].
-						"\n group by reference_ID";
+						"\n where jfc.published=1" .
+						"\n and jfc.reference_table='" .$stateRow['catid']. "'".
+						"\n and jfc.language_id=" .$stateRow['language_id'].
+						"\n group by jfc.reference_id";
 
 						$db->setQuery($sql);
 						if( $rows = $db->loadRowList() ) {
@@ -639,7 +639,8 @@ class CPanelModelCPanel extends JModel
 
 		$sql = "select jfc.reference_table, jfc.reference_id, jfc.language_id, jfl.title as language" .
 		"\n from #__jf_content as jfc, #__languages as jfl" .
-		"\n where published=0  and jfc.language_id = jfl.lang_id" .
+		//jfc.published=0 or jfl.published=0 not published=0
+		"\n where jfc.published=0 and jfc.language_id = jfl.lang_id" .
 		"\n group by jfc.reference_table, jfc.reference_id, jfc.language_id" .
 		"\n limit 0, 50";
 		$db->setQuery($sql);
