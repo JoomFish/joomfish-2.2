@@ -62,7 +62,15 @@ Legend:
 ! -> Note
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-==== 2012-01-18 Joom!Fish 2.2.3 Stable release =====
+==== 2012-01-19 Joom!Fish 2.2.3 Stable release =====
+
+Author: Alex Kempkens <alex.kempkens@thinknetwork.com>
+Date:   Wed Jan 19 23:05:00 2012 +0100
+Fix front-end module to show languages correctly even if lang_code is used duplicate
+
+commit 8c346a3eeb3b108ca5a04a2b79d127d29a13bb3d
+Author: Geraint Edwards <github@copyn.plus.com> 2012-01-19 14:03:41
+Fix to avoid redirect when Joomla language has not been installed when we create it in Joomfish
 
 commit d609344e58d7a2fb8c474aceb3cb1250ddf921f0
 Author: Alex Kempkens <alex.kempkens@thinknetwork.com>

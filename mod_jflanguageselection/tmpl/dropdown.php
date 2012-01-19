@@ -40,10 +40,10 @@ if ( count($langActive)>0 ) {
 	foreach( $langActive as $language )
 	{
 		$href = JFModuleHTML::_createHRef ($language, $params);
-		if( $language->code == $curLanguage->getTag() && !$show_active ) {
+		if( $language->get('id') == $curLanguage->get('id') && !$show_active ) {
 			continue;		// Not showing the active language
 		}
-		if ($language->code == $curLanguage->getTag() ) {
+		if ($language->get('id') == $curLanguage->get('id') ) {
 			$activehref=$href;
 		}
 

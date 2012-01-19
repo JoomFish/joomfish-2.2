@@ -42,13 +42,13 @@ if ( count($langActive)>0 ) {
 	foreach( $langActive as $language )
 	{
 		$languageCode = $language->getLanguageCode();
-		if( $language->code == $curLanguage->getTag() && !$show_active ) {
+		if( $language->get('id') == $curLanguage->get('id') && !$show_active ) {
 			continue;		// Not showing the active language
 		}
 		$href = JFModuleHTML::_createHRef ($language, $params);
 		$langImg = JFModuleHTML::getLanguageImageSource($language);
 		
-		if ($language->code == $curLanguage->getTag() ){
+		if ($language->get('id') == $curLanguage->get('id') ){
 			$activehref=$href;
 			$activeLangImg = array( 'img' => $langImg, 'code' => $languageCode, 'name' => $language->title_native );
 		}

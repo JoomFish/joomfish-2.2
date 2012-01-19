@@ -56,7 +56,7 @@ $spacer		= trim( $params->get( 'spacer', '&nbsp;' ) );
 jimport('joomla.filesystem.file');
 
 $jfManager = JoomFishManager::getInstance();
-$langActive = $jfManager->getActiveLanguages(true);
+$langActive = $jfManager->getLanguagesIndexedById(true);
 
 // setup Joomfish plugins
 $dispatcher	   = JDispatcher::getInstance();
@@ -70,9 +70,11 @@ if( !isset( $langActive ) || count($langActive)==0) {
 }
 
 // check for unauthorised access to inactive language
-$curLanguage = JFactory::getLanguage();
-if (!array_key_exists($curLanguage->getTag(),$langActive)){
-	reset($langActive);
+$registry = JFactory::getConfig();
+$curLanguage = $registry->getValue("joomfish.language");
+if (!array_key_exists($curLanguage->get('id'),$langActive)){
+	reset($langActiveCode);
+	reset($$langActive);
 	//$currentlang = current($langActive);
 	//global $mainframe;
 	//$mainframe->redirect(JRoute::_("index.php?lang=".$currentlang->iso));
@@ -80,7 +82,6 @@ if (!array_key_exists($curLanguage->getTag(),$langActive)){
 	$deflang = $registry->getValue("config.defaultlang");
 	global $mainframe;
 	$mainframe->redirect(JRoute::_("index.php?lang=".$deflang));
-	JError::raiseError('0', JText::_('NOT AUTHORISED').' '.$curLanguage->getTag());
 	exit();
 }
 

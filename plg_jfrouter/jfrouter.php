@@ -291,7 +291,8 @@ class plgSystemJFRouter extends JPlugin{
 			$locale = $jfLang->code;
 		} else {
 			$jfLang = TableJFLanguage::createByJoomla( $locale );
-		if( !$jfLang->active ) {
+			
+			if( !$jfLang->active ) {
 			?>
 			<div style="background-color: #c00; color: #fff">
 				<p style="font-size: 1.5em; font-weight: bold; padding: 10px 0px 10px 0px; text-align: center; font-family: Arial, Helvetica, sans-serif;">
@@ -299,14 +300,14 @@ class plgSystemJFRouter extends JPlugin{
 				Please check configuration, try to use first active language</p>
 			</div>
 			<?php
-			$activeLanguages = $jfm->getActiveLanguages();
-			if( count($activeLanguages) > 0 ) {
-				$jfLang = $activeLanguages[0];
-				$locale = $jfLang->code;
-			}
-			else {
-				// No active language defined - using system default is only alternative!
-			}
+				$activeLanguages = $jfm->getActiveLanguages();
+				if( count($activeLanguages) > 0 ) {
+					$jfLang = $activeLanguages[0];
+					$locale = $jfLang->code;
+				}
+				else {
+					// No active language defined - using system default is only alternative!
+				}
 			}
 			$client_lang = ($jfLang->shortcode!='') ? $jfLang->shortcode : $jfLang->iso;
 		}

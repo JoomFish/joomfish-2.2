@@ -39,7 +39,7 @@ $outString .= '<ul class="jflanguageselection">';
 foreach( $langActive as $language )
 {
 	$langActive = '';
-	if( $language->code == $curLanguage->getTag() ) {
+	if( $language->get('id') == $curLanguage->get('id') ) {
 		if( !$show_active ) {
 			continue;		// Not showing the active language
 		} else {
