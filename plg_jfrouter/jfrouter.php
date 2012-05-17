@@ -236,7 +236,7 @@ class plgSystemJFRouter extends JPlugin{
 				$vars = explode( "&", $queryString );
 				if( count($vars) > 0 && $queryString) {
 					foreach ($vars as $var) {
-						if( preg('/=/i', $var ) ) {
+						if( preg_match('/=/i', $var ) ) {
 							list($key, $value) = explode( "=", $var);
 							if( $key != "lang" ) {
 								if( $hrefVars != "" ) {
