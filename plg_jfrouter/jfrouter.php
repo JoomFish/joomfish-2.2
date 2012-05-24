@@ -354,7 +354,9 @@ class plgSystemJFRouter extends JPlugin{
 			$params = new JParameter($jfLang->params);
 			$paramarray = $params->toArray();
 			foreach ($paramarray as $key=>$val) {
-				$registry->setValue("config.".$key,$val);
+				if (trim($val) !== '') {
+					$registry->setValue("config.".$key,$val);
+				}
 	
 				if (defined("_JLEGACY")){
 					$name = 'mosConfig_'.$key;
