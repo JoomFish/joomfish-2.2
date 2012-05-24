@@ -63,7 +63,7 @@ Legend:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 2012-05-24 Alex Kempkens
-# Fixed; Issue with empty config variables (http://www.joomfish.net/forum/viewtopic.php?f=15&t=5318&p=38904#p38904)
+#8 Fixed; Issue with empty config variables (http://www.joomfish.net/forum/viewtopic.php?f=15&t=5318&p=38904#p38904)
 
 ==== 2012-01-20 Joom!Fish 2.2.3 Stable release =====
 
