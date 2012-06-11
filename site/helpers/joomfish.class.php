@@ -222,7 +222,7 @@ class JoomFish {
 		$fallbackrows=array();
 		$idarray = explode(",",$ids);
 		$fallbackids=array();
-		$allowfallback=false;
+
 		if (isset($languages[$language]) && $languages[$language]->fallback_code!="") {
 			$fallbacklanguage = $languages[$language]->fallback_code;
 			if (!array_key_exists($fallbacklanguage, $languages)){
