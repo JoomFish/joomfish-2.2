@@ -6,8 +6,8 @@
 	<authorEmail>support@joomfish.net</authorEmail>
 	<authorUrl>http://www.joomfish.net</authorUrl>
 	<creationDate>2012-01-20</creationDate>
-	<copyright>Copyright (C) 2003 - 2012, Think Network GmbH, Munich. All rights reserved.</copyright>
-	<version>2.2.3</version>
+	<copyright>Copyright (C) 2003 - 2013, Think Network GmbH, Munich. All rights reserved.</copyright>
+	<version>2.2.4</version>
 	<description>When activated this bot ensures that your system is automatically translating all database queries.</description>
 	<files>
 		<filename plugin="jfdatabase">jfdatabase.php</filename>

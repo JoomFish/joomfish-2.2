@@ -6,9 +6,9 @@
 	<author>Joom!Fish Project</author>
 	<authorEmail>support@joomfish.net</authorEmail>
 	<authorUrl>http://www.joomfish.net</authorUrl>
-	<copyright>Copyright (C) 2003 - 2012, Think Network GmbH, Munich. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2003 - 2013, Think Network GmbH, Munich. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<version>2.2.3</version>
+	<version>2.2.4</version>
 	<description>DESCMODULLANGUAGESELECTION</description>
 	<files>
 		<filename module="mod_jflanguageselection">mod_jflanguageselection.php</filename>

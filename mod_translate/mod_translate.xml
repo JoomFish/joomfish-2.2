@@ -3,11 +3,11 @@
 	<name>Direct Translation</name>
 	<author>Joom!Fish Project</author>
 	<creationDate>2012-01-20</creationDate>
-	<copyright>2003 - 2012, Think Network GmbH, Munich. All rights reserved.</copyright>
+	<copyright>2003 - 2013, Think Network GmbH, Munich. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@joomfish.net</authorEmail>
 	<authorUrl>www.joomfish.net</authorUrl>
-	<version>2.2.3</version>
+	<version>2.2.4</version>
 	<description>This module provides a direct link JoomFish translations for selected item. Remember to publish this module to status position.</description>
 	<files>
 		<filename module="mod_translate">mod_translate.php</filename>
