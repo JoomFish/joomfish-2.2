@@ -2,13 +2,13 @@
 <joomfish type="contentelement">
   <name>Languages</name>
   <author>S. Alamo (selimoff)</author>
-  <version>2.2.3</version>
+  <version>2.2.4</version>
   <description>Definition for Language Name</description>
-  <copyright>2003 - 2012, Think Network GmbH, Munich</copyright>
+  <copyright>2003 - 2013, Think Network GmbH, Munich</copyright>
  <reference type="content">
     <table name="languages">
-      <field type="referenceid" name="id" translate="0">ID</field>
-      <field type="titletext" name="name" translate="1">Title</field>
+      <field type="referenceid" name="lang_id" translate="0">ID</field>
+      <field type="titletext" name="title_native" translate="1">Title</field>
     </table>
   </reference>
   <translationfilters>
