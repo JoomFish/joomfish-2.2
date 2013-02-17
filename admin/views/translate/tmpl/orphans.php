@@ -93,6 +93,7 @@ if (isset($this->filterlist) && count($this->filterlist)>0){
 		<?php
 	}
 	else {
+	if (!empty($this->rows)){
 		?>
 	<tbody>
     <?php
@@ -153,8 +154,9 @@ if (isset($this->filterlist) && count($this->filterlist)>0){
 				$i++;
 				?>
 	</tr>
-    <?php }?>
-    </tbody>
+	<?php }?>
+	</tbody>
+	<?php }?>
 	</table>
 <br />
 <table cellspacing="0" cellpadding="4" border="0" align="center">
