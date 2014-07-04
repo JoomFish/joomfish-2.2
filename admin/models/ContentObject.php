@@ -123,7 +123,7 @@ class ContentObject implements iJFTranslatable {
 			$row=null;
 			$row = $db->loadObject(  );
 			$this->id = $id;
-			$this->readFromRow( $row );
+			if(isset($row))	$this->readFromRow( $row );
 		}
 	}
 
